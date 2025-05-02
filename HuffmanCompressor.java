@@ -1,5 +1,7 @@
 import java.io.*;
+import java.nio.file.Files;
 import java.util.*;
+
 
 public class HuffmanCompressor {
     private Map<Character, String> huffmanCodes = new HashMap<>();
